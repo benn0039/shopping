@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: #F5F5F5;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    min-height: 60px;
+    background-color: #1a1a1a;
+    width: 100%;
+    padding-left: 3%;
+    box-shadow: 3px 3px 5px 2px #ccc; 
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    padding: 60px 0 0 0;
+    /*height: 75vh;*/
+}
+
+.welcome {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #888;
+    text-align: center;
+    text-shadow: #ccc 0 1px;
+    width: 100%;
+    padding-top: 25vh;
+}
+
+h1 {
+    color: #eee;
+    font-weight: 100;
+    font-size: 2.5rem;
+    
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.welcome>p {
+    padding-top: 5%;
+    
+}
+
+.item {
+    font-family: Helvetica;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+    color: #444;
+    padding: 5px 3%;
+    border-bottom: 1px solid #eee;
+    width: 94%;
+    letter-spacing: .3px;
+   
+}
+
+.delete {
+    height: 1.5rem;
+    float: right;   
+    padding-top: 7px;
+}
+/*************************************
+            FOOTER
+**************************************/
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    min-height: 55px;
+    background-color: #DEDEDE;
+    width: 96%;
+    padding: 0 2%;
+    border-top: 1px solid #999;
+}
+
+.btn {
+   
+    width: 0%;
+    height: 5vh;
+    min-height: 35px;
+    font-size: 1rem;
+    background-color: #056da7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+#addItem {
+    
+    width: 96%;
+    height: 5vh;
+    min-height: 35px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    border: 1px solid #bbb;
+    padding-left: 2%;
+    border-radius: 3px;
+}
